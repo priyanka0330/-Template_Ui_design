@@ -1,0 +1,17 @@
+$navcolor : black;
+$m-right : 15px;
+$m-left : 10px;
+$width : 290px;
+
+.offcanvas{
+  width: $width;
+  margin-left: $m-left;
+}
+.nav-item a{
+  margin-right: $m-right;
+  margin-left: $m-left;
+  text-align: center;
+  line-height: 25px;
+  color: $navcolor;
+  cursor: pointer;
+}
